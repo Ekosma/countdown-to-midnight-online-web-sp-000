@@ -5,9 +5,6 @@ def countdown(x)
   while x > 0 
   x -= 1
     puts "#{x} SECONDS"
-  
-  until x == 0 
-  x -= 1
-    puts 
-  end 
+  end
 end
+
